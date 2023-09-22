@@ -1,0 +1,82 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  background: #120e0f url(skyback.png);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  padding: 40px 100px;
+}
+
+
+.container {
+  width: 100%; /* makes the box not take up the whole width of the website */
+  min-height: 70%;
+  margin-top: 10px;
+  position: center;
+  background: rgba(148, 243, 255, 0.295);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.05);
+  border-radius: 20px;
+  padding: 50px;
+}
+
+
+header {
+  width: calc(100% - 200px); 
+  margin-top: -120px;
+  margin-left: 70px;
+  position: center;
+  background: rgba(140, 199, 255, 0.95);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.05);
+  border-radius: 20px;
+  padding: 25px;
+}
+
+
+header ul {
+  display: flex;
+}
+
+header ul li {
+  list-style: none;
+  margin: 15px;
+  margin-top: 25px; 
+}
+
+header ul li a {
+  text-decoration: none;
+  font-weight: 500;
+  color: #ffffff;
+  padding: 8px 15px;
+  border-radius: 25px;
+  font-size: 2em;
+  
+}
+
+
+header ul li a.active {
+  background: #eff7ff;
+  color: #425db6;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+  font-weight: 700;
+}
+
+.logo {
+  color: #ffffff;
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 5.5em;
+  margin-left: 50px;
+}
+
+.info {
+  margin-top: 500px;
+  width: calc(100% - 850px);
+}
