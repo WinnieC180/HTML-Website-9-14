@@ -18,10 +18,10 @@ section {
 
 .container {
   width: 100%; /* makes the box not take up the whole width of the website */
-  min-height: 70%;
+  min-height: 550px;
   margin-top: 10px;
   position: center;
-  background: rgba(148, 243, 255, 0.295);
+  background: rgba(148, 207, 255, 0.295);
   box-shadow: 0 15px 35px rgba(0, 0, 0, 0.05);
   border-radius: 20px;
   padding: 50px;
@@ -29,6 +29,7 @@ section {
 
 
 header {
+  font-family: "helveica neue", helvetica, sans-serif;
   width: calc(100% - 200px); 
   margin-top: -120px;
   margin-left: 70px;
@@ -42,6 +43,7 @@ header {
 
 header ul {
   display: flex;
+  margin-left: -30px;
 }
 
 header ul li {
@@ -57,7 +59,6 @@ header ul li a {
   padding: 8px 15px;
   border-radius: 25px;
   font-size: 2em;
-  
 }
 
 
@@ -69,14 +70,51 @@ header ul li a.active {
 }
 
 .logo {
-  color: #ffffff;
+  color: #f9faff;
   font-weight: 600;
   text-decoration: none;
   font-size: 5.5em;
-  margin-left: 50px;
+  margin-left: 28px;
+}
+
+h1 {
+  font-family: "helveica neue", helvetica, sans-serif;
+  font-weight: 550;
+  font-size: 4.8em; 
+  color: #3b64a1e5; 
+  text-align: center;
+  background-color:#fffef765; 
+  border-radius: 20px;
+}
+
+h2 {
+  font-family: "helveica neue", helvetica, sans-serif;
+  font-weight: 550;
+  font-size: 3em; 
+  color: #3b64a1e5; 
+  text-align: center;
+  background-color:#fffef7b9; 
+  border-radius: 20px;
+  margin-top: -50px;
+}
+
+.bear {
+  margin-left: 100px;
+  margin-top: 100px;
 }
 
 .info {
-  margin-top: 500px;
-  width: calc(100% - 850px);
+   /* margin-top: 500px;
+  width: calc(100% - 850px);  */
+  margin-top: -28px;
+  font-family: "helveica neue", helvetica, sans-serif;
+  color: #1d256d; 
+  background-color:#fffef2ea; 
+  border-radius: 20px;
+  text-align: center;
+  font-size: large;
+}
+
+.line {
+  color: #fffef2ea; 
 }
