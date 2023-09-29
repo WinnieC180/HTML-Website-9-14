@@ -103,6 +103,12 @@ h2 {
   margin-top: 100px;
 }
 
+.cc {
+  margin-top: 38px;
+  font-family: "helveica neue", helvetica, sans-serif;
+  color: #1d256d; 
+}
+
 .info {
    /* margin-top: 500px;
   width: calc(100% - 850px);  */
@@ -117,4 +123,50 @@ h2 {
 
 .line {
   color: #fffef2ea; 
+}
+
+.line2 {
+  color: rgba(148, 207, 255, 0); 
+}
+
+table {
+  font-family: "helveica neue", helvetica, sans-serif;
+  border-collapse: collapse; /* keeps all the rows and columns of the table together */
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #565baa;
+  text-align: left;
+  padding: 10px;
+}
+
+tr:nth-child(odd) {
+  background-color: #f2f8ff;
+}
+
+tr:nth-child(even) {
+  background-color: #cfe3f8;
+}
+
+video {
+  margin-left: 100px; 
+}
+
+.question {
+  font-family: "helveica neue", helvetica, sans-serif;
+  color: #1d256d; 
+  font-size: large;
+  margin-left: 8px;
+}
+
+form {
+  margin-left: 8px; 
+}
+
+label {
+  font-family: "helveica neue", helvetica, sans-serif;
+  color: #1d256d; 
+  font-size: large;
+  margin-left: 8px;
 }
